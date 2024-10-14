@@ -10,7 +10,7 @@ import NikeImage from '../assets/Nike.png';
 import ecommerceImage from '../assets/ecommerce1.png';
 import PortfolioImage from '../assets/portfolio2.png';
 //  import PortfolioImage from '../assets/portfolio3.png';
-import ClockImage from '../assets/CLock.png';
+// import ClockImage from '../assets/CLock.png';
 import ochiImage from '../assets/ochi.png';
 
 const projects = [
@@ -91,13 +91,13 @@ const projects = [
   //   image: Portfolio2Image,
   //   category: 'Web Design',
   // },
-  {
-    title: 'Smart Clock',
-    description: 'A smart clock application with multiple features.',
-    link: 'https://clockio.netlify.app/',
-    image: ClockImage,
-    category: 'Applications',
-  },
+  // {
+  //   title: 'Smart Clock',
+  //   description: 'A smart clock application with multiple features.',
+  //   link: 'https://clockio.netlify.app/',
+  //   image: ClockImage,
+  //   category: 'Applications',
+  // },
   {
     title: 'Ochi Project',
     description: 'A project for visualizing data with advanced analytics.',
