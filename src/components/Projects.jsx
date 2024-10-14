@@ -9,7 +9,7 @@ import VidplayerImage from '../assets/youtube.png';
 import NikeImage from '../assets/Nike.png';
 import ecommerceImage from '../assets/ecommerce1.png';
 import PortfolioImage from '../assets/portfolio2.png';
- import Portfolio2Image from '../assets/portfolio3.png';
+//  import PortfolioImage from '../assets/portfolio3.png';
 import ClockImage from '../assets/CLock.png';
 import ochiImage from '../assets/ochi.png';
 
@@ -77,20 +77,20 @@ const projects = [
     image: ecommerceImage,
     category: 'Web Design',
   },
-  {
-    title: 'Personal Portfolio',
-    description: 'A personal portfolio website to showcase my skills and projects.',
-    link: 'https://divyaanshportfolio.netlify.app/',
-    image: PortfolioImage,
-    category: 'Web Design',
-  },
-  {
-    title: 'Portfolio v2',
-    description: 'An updated version of my personal portfolio.',
-    link: 'https://profoliio.netlify.app/',
-    image: Portfolio2Image,
-    category: 'Web Design',
-  },
+  // {
+  //   title: 'Personal Portfolio',
+  //   description: 'A personal portfolio website to showcase my skills and projects.',
+  //   link: 'https://divyaanshportfolio.netlify.app/',
+  //   image: PortfolioImage,
+  //   category: 'Web Design',
+  // },
+  // {
+  //   title: 'Portfolio v2',
+  //   description: 'An updated version of my personal portfolio.',
+  //   link: 'https://profoliio.netlify.app/',
+  //   image: Portfolio2Image,
+  //   category: 'Web Design',
+  // },
   {
     title: 'Smart Clock',
     description: 'A smart clock application with multiple features.',
