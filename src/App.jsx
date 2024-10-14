@@ -7,6 +7,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Achievements from './components/Achievements';
 function App() {
   return (
     <div>
@@ -15,7 +16,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      
+      <Achievements />
       <Contact />
     </div>
   );

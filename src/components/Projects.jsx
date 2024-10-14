@@ -9,8 +9,6 @@ import VidplayerImage from '../assets/youtube.png';
 import NikeImage from '../assets/Nike.png';
 import ecommerceImage from '../assets/ecommerce1.png';
 import PortfolioImage from '../assets/portfolio2.png';
-//  import PortfolioImage from '../assets/portfolio3.png';
-// import ClockImage from '../assets/CLock.png';
 import ochiImage from '../assets/ochi.png';
 
 const projects = [
@@ -21,13 +19,6 @@ const projects = [
     image: FarmerImage,
     category: 'Web Development',
   },
-  // {
-  //   title: 'Atlasbazaar',
-  //   description: 'A YouTube clone built using React for video streaming and sharing.',
-  //   link: 'https://atlasbazaar.netlify.app/',
-  //   image: AtlasBazzarImage,
-  //   category: 'Applications',
-  // },
   {
     title: 'Razorpay',
     description: 'An e-commerce platform to connect buyers and sellers.',
@@ -77,27 +68,6 @@ const projects = [
     image: ecommerceImage,
     category: 'Web Design',
   },
-  // {
-  //   title: 'Personal Portfolio',
-  //   description: 'A personal portfolio website to showcase my skills and projects.',
-  //   link: 'https://divyaanshportfolio.netlify.app/',
-  //   image: PortfolioImage,
-  //   category: 'Web Design',
-  // },
-  // {
-  //   title: 'Portfolio v2',
-  //   description: 'An updated version of my personal portfolio.',
-  //   link: 'https://profoliio.netlify.app/',
-  //   image: Portfolio2Image,
-  //   category: 'Web Design',
-  // },
-  // {
-  //   title: 'Smart Clock',
-  //   description: 'A smart clock application with multiple features.',
-  //   link: 'https://clockio.netlify.app/',
-  //   image: ClockImage,
-  //   category: 'Applications',
-  // },
   {
     title: 'Ochi Project',
     description: 'A project for visualizing data with advanced analytics.',
@@ -143,10 +113,9 @@ const Projects = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-semibold text-center text-white mb-12">My Projects</h2>
 
-       
-        <div className="flex justify-center mb-12 space-x-4">
+        <div className="flex justify-center flex-wrap gap-4 mb-12">
           <button
-            className={`px-6 py-3 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
+            className={`px-4 py-2 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
               activeCategory === 'All'
                 ? 'bg-gradient-to-r from-teal-400 to-blue-500 text-white shadow-lg transform scale-105'
                 : 'bg-gray-700 text-gray-300 hover:bg-gradient-to-r hover:from-teal-400 hover:to-blue-500 hover:text-white hover:shadow-lg'
@@ -156,7 +125,7 @@ const Projects = () => {
             All
           </button>
           <button
-            className={`px-6 py-3 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
+            className={`px-4 py-2 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
               activeCategory === 'Web Development'
                 ? 'bg-gradient-to-r from-teal-400 to-blue-500 text-white shadow-lg transform scale-105'
                 : 'bg-gray-700 text-gray-300 hover:bg-gradient-to-r hover:from-teal-400 hover:to-blue-500 hover:text-white hover:shadow-lg'
@@ -166,7 +135,7 @@ const Projects = () => {
             Web Development
           </button>
           <button
-            className={`px-6 py-3 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
+            className={`px-4 py-2 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
               activeCategory === 'Web Design'
                 ? 'bg-gradient-to-r from-teal-400 to-blue-500 text-white shadow-lg transform scale-105'
                 : 'bg-gray-700 text-gray-300 hover:bg-gradient-to-r hover:from-teal-400 hover:to-blue-500 hover:text-white hover:shadow-lg'
@@ -176,7 +145,7 @@ const Projects = () => {
             Web Design
           </button>
           <button
-            className={`px-6 py-3 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
+            className={`px-4 py-2 rounded-full font-semibold text-lg transition-all duration-300 ease-in-out ${
               activeCategory === 'Applications'
                 ? 'bg-gradient-to-r from-teal-400 to-blue-500 text-white shadow-lg transform scale-105'
                 : 'bg-gray-700 text-gray-300 hover:bg-gradient-to-r hover:from-teal-400 hover:to-blue-500 hover:text-white hover:shadow-lg'
@@ -187,7 +156,6 @@ const Projects = () => {
           </button>
         </div>
 
-        
         <Slider {...settings}>
           {filteredProjects.map((project, index) => (
             <div key={index} className="px-4">
