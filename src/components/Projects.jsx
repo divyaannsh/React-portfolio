@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import FarmerImage from '../assets/Farmerrr.png';
-import RazorpayImage from '../assets/Razorpay.PNG';
+import RazorpayImage from '../assets/Razorpay.png';
 import GeminiImage from '../assets/Gemini.png';
 import ChatappImage from '../assets/Chatapp.png';
 import ObjectifyImage from '../assets/objectify.png';
