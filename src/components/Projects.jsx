@@ -9,7 +9,7 @@ import VidplayerImage from '../assets/youtube.png';
 import NikeImage from '../assets/Nike.png';
 import ecommerceImage from '../assets/ecommerce1.png';
 import PortfolioImage from '../assets/portfolio2.png';
-// import Portfolio2Image from '../assets/portfolio3.png';
+ import Portfolio2Image from '../assets/portfolio3.png';
 import ClockImage from '../assets/CLock.png';
 import ochiImage from '../assets/ochi.png';
 
