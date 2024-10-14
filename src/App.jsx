@@ -1,14 +1,24 @@
-import styles from "./App.module.css"
-import Navbar from "./components/Navbar"
-
-
+import React from 'react';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 function App() {
-
   return (
-   <div className={styles.App}>
-    <Navbar/>
-   </div>
-  )
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Projects />
+      
+      <Contact />
+    </div>
+  );
 }
 
-export default App
+export default App;

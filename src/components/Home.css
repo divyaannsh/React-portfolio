@@ -1,0 +1,47 @@
+@keyframes flipText {
+    0% {
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+    25% {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+    33% {
+      opacity: 1;
+      transform: rotateX(0);
+    }
+    58% {
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+    100% {
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+  }
+  
+  .flipping-text {
+    display: inline-block;
+    animation: flipText 6s infinite;
+    position: relative;
+  }
+  
+  .flipping-text:before {
+    content: 'Hi';
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    animation: flipText 6s infinite;
+  }
+  
+  .flipping-text:after {
+    content: 'Bonjour, नमस्ते';
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: flipText 6s infinite 3s; /* Delay for the second phrase */
+  }
+  
