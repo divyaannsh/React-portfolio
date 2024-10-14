@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import FarmerImage from '../assets/Farmerrr.png';
-import AtlasBazzarImage from '../assets/AtlasBazzar.png';
 import RazorpayImage from '../assets/Razorpay.PNG';
 import GeminiImage from '../assets/Gemini.png';
 import ChatappImage from '../assets/Chatapp.png';
@@ -22,13 +21,13 @@ const projects = [
     image: FarmerImage,
     category: 'Web Development',
   },
-  {
-    title: 'Atlasbazaar',
-    description: 'A YouTube clone built using React for video streaming and sharing.',
-    link: 'https://atlasbazaar.netlify.app/',
-    image: AtlasBazzarImage,
-    category: 'Applications',
-  },
+  // {
+  //   title: 'Atlasbazaar',
+  //   description: 'A YouTube clone built using React for video streaming and sharing.',
+  //   link: 'https://atlasbazaar.netlify.app/',
+  //   image: AtlasBazzarImage,
+  //   category: 'Applications',
+  // },
   {
     title: 'Razorpay',
     description: 'An e-commerce platform to connect buyers and sellers.',
