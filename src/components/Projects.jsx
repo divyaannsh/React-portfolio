@@ -131,7 +131,7 @@ const settings = {
   ],
 };
 
-const ProjectSection = () => {
+const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('All');
 
   const filteredProjects = activeCategory === 'All'
@@ -218,4 +218,4 @@ const ProjectSection = () => {
   );
 };
 
-export default ProjectSection;
+export default Projects;
